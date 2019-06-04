@@ -23,6 +23,18 @@
   justify-content: center;
   align-items: center;
 }
-.select-btn {
-    
+a {
+  color: black;
+  text-decoration: none;
 }
+.q-container{
+    border: 1px solid black;
+  width: 50vw;
+  height: 80vh;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+/* .select-btn {
+} */
