@@ -1,0 +1,28 @@
+.wrapper {
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.game-container {
+  border: 1px solid black;
+  width: 50vw;
+  height: 80vh;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+.select-one {
+  border: 1px solid black;
+  width: 50vw;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.select-btn {
+    
+}
