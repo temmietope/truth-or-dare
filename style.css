@@ -1,3 +1,6 @@
+body {
+  font-family: "Artifika";
+}
 .wrapper {
   height: 100vh;
   padding: 0;
@@ -6,7 +9,7 @@
   justify-content: center;
   align-items: center;
 }
-.game-container {
+.container {
   border: 1px solid black;
   width: 50vw;
   height: 80vh;
@@ -14,27 +17,149 @@
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
-}
-.select-one {
-  border: 1px solid black;
-  width: 50vw;
-  height: 80vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 10px;
+  background-color: rgba(216, 112, 147, 0.692);
 }
 a {
   color: black;
   text-decoration: none;
 }
-.q-container {
-  border: 1px solid black;
-  width: 50vw;
-  height: 80vh;
+li {
+  /* list-style: none; */
+  margin: 0;
+  padding: 0;
+}
+section {
+  height: 100%;
+}
+/* .welcome {
+  display: grid;
+  grid-template-rows: 65% 35%;
+} */
+.header {
+  height: 65%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+.header h1{
+  font-size: 2.5em;
+}
+.start-btn{
+  padding: 10px 40px;
+  font-size: 1.2em;
+  background-color: rgba(128, 0, 0, 0.548);
+  color: white;
+  border: none;
+}
+.rules{
+  background-color: rgba(128, 0, 0, 0.548);
+  margin: 10px;
+  padding: 10px;
+}
+.rules h4{
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.select-an-option{
+  width: 80%;
+}
+.select-one{
+  height: 80%;
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
 }
-/* .select-btn {
-} */
+.select-btn button{
+  padding: 20px 50px;
+  font-size: 1.2em;
+  background-color: rgba(128, 0, 0, 0.548);
+  color: white;
+  border: none;
+  margin: 20px;
+}
+.select-an-option .back{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.select-an-option .back button{
+  background-color: red;
+  padding: 5px 10px;
+  border: none;
+}
+.challenge{
+  height: 50%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+.challenge .challenge-header{
+  font-size: 3em;
+}
+.accept-or-decline{
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.accept-or-decline button{
+  padding: 20px 50px;
+  font-size: 1.2em;
+  background-color: rgba(128, 0, 0, 0.548);
+  color: white;
+  border: none;
+  margin: 20px;
+}
+.timer{
+  height: 15%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: blue;
+  font-size: 1.2em;
+}
+.question-section1 .back{
+  height: 10%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  
+}
+.question-section1 .back button{
+  background-color: red;
+  padding: 5px 10px;
+  border: none;
+}
+.penalty{
+  width: 80%;
+}
+.do{
+  height: 80%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+.do h1{
+  font-size: 3em;
+}
+.do .must-do{
+  font-size: 1.6em;
+}
+.penalty .back-to-home{
+  height: 10%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.penalty .back-to-home button{
+  background-color: red;
+  padding: 5px 10px;
+  border: none;
+}

@@ -1,34 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>TruthorDare</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    <div class="wrapper">
-        <div class="game-container" id="gameContainer">
-            <h2>Welcome</h2>
-            <p>Click Start to play</p>
-            <p>Rules of the game</p>
-            This game can be played between two friends or a group of people
-            <ul>
-                <li>
-                    You have to do what you are asked to do, you cannot back out
-                </li>
-                <li>
-                    If you feel you cannot do the requirement, there is a penalty. The penalty will be automatically generated when you decline the challenge.
-                </li>
-                <li>
-                    Remember, this is a fun game, violence is not an option
-                </li>
-            </ul>
-            <button class="start-btn" id="start-btn"><a href="./select-an-option.html">Start</a> </button>
-        </div>
+    <link rel="stylesheet" href="./style.css" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    /> -->
+  </head>
+  <body>
+    <div class="wrapper" id="wrapper">
+      <div class="container">
+        <section class="welcome" id="welcome">
+          <div class="header">
+            <h1>Truth or Dare</h1>
+            <button class="start-btn" id="start-btn">Start</button>
+          </div>
+          <div class="rules">
+            <h4>Rules of the game</h4>
+               If you decline the challenge, you will be penalized
+          </div>
+        </section>
+
+        <section
+          class="select-an-option"
+          id="select-an-option"
+          style="display: none;"
+        >
+          <div class="select-one">
+            <div class="select-btn" id="select-truth">
+              <button>TRUTH</button>
+            </div>
+            <div class="select-btn" id="select-dare">
+              <button>DARE</button>
+            </div>
+          </div>
+          <div class="back" id="back1"><button>Back</button></div>
+        </section>
+
+        <section
+          class="question-section1"
+          id="question-section1"
+          style="display: none;"
+        >
+          <div class="challenge" id="challenge"></div>
+          <div class="accept-or-decline">
+              <div class="accept" id="accept"><button>ACCEPT</button></div>
+              <div class="decline" id="decline"><button>DECLINE</button></div>
+          </div>
+          <div class="timer" id="timer"></div>
+          <div class="back" id="back2"><button>Back</button></div>
+          
+        </section>
+
+        <section class="penalty" id="penalty" style="display: none;">
+            <div class="do">
+                <h1>PENALTY</h1>
+                <div class="must-do" id="must-do"></div>
+            </div>       
+            <div class="back-to-home" id="back-to-home">
+              <button>Back to Home</button>
+            </div>
+        </section>
+      </div>
     </div>
-    <script src="./index.js"></script>
     <script src="./truth.js"></script>
-</body>
+    <script src="./index.js"></script>
+  </body>
 </html>
