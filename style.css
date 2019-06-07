@@ -18,24 +18,19 @@ body {
   justify-content: center;
   align-items: center;
   padding: 10px;
-  background-color: rgba(216, 112, 147, 0.692);
+  background: linear-gradient(
+    to bottom left,
+    rgba(255, 255, 255, 0.623),
+    rgba(160, 48, 48, 0.664)
+  );
 }
 a {
   color: black;
   text-decoration: none;
 }
-li {
-  /* list-style: none; */
-  margin: 0;
-  padding: 0;
-}
 section {
   height: 100%;
 }
-/* .welcome {
-  display: grid;
-  grid-template-rows: 65% 35%;
-} */
 .header {
   height: 65%;
   display: flex;
@@ -43,38 +38,41 @@ section {
   justify-content: center;
   align-items: center;
   border-bottom: 1px solid black;
+  color: rgba(167, 75, 150, 0.788);
 }
-.header h1{
+.header h1 {
   font-size: 2.5em;
 }
-.start-btn{
+.start-btn {
   padding: 10px 40px;
   font-size: 1.2em;
-  background-color: rgba(128, 0, 0, 0.548);
+  background-color: yellowgreen;
   color: white;
   border: none;
 }
-.rules{
-  background-color: rgba(128, 0, 0, 0.548);
+.rules {
+  color: white;
+  background-color: rgba(167, 75, 150, 0.788);
   margin: 10px;
   padding: 10px;
+  border-top-right-radius: 30%;
 }
-.rules h4{
+.rules h4 {
   text-align: center;
   margin-top: 0;
   margin-bottom: 0;
 }
-.select-an-option{
+.select-an-option {
   width: 80%;
 }
-.select-one{
+.select-one {
   height: 80%;
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
 }
-.select-btn button{
+.select-btn button {
   padding: 20px 50px;
   font-size: 1.2em;
   background-color: rgba(128, 0, 0, 0.548);
@@ -82,33 +80,40 @@ section {
   border: none;
   margin: 20px;
 }
-.select-an-option .back{
+#select-truth button {
+  border-top-right-radius: 30%;
+}
+#select-dare button {
+  border-bottom-left-radius: 30%;
+}
+.select-an-option .back {
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
-.select-an-option .back button{
+.select-an-option .back button {
   background-color: red;
   padding: 5px 10px;
   border: none;
 }
-.challenge{
+.challenge {
   height: 50%;
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
 }
-.challenge .challenge-header{
+.challenge .challenge-header {
   font-size: 3em;
+  color: rgba(167, 75, 150, 0.788);
 }
-.accept-or-decline{
+.accept-or-decline {
   height: 25%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.accept-or-decline button{
+.accept-or-decline button {
   padding: 20px 50px;
   font-size: 1.2em;
   background-color: rgba(128, 0, 0, 0.548);
@@ -116,7 +121,7 @@ section {
   border: none;
   margin: 20px;
 }
-.timer{
+.timer {
   height: 15%;
   display: flex;
   justify-content: flex-start;
@@ -124,42 +129,57 @@ section {
   color: blue;
   font-size: 1.2em;
 }
-.question-section1 .back{
+.question-section1 .back {
   height: 10%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  
 }
-.question-section1 .back button{
+.question-section1 .back button {
   background-color: red;
   padding: 5px 10px;
   border: none;
 }
-.penalty{
+.penalty {
   width: 80%;
 }
-.do{
+.do {
   height: 80%;
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
 }
-.do h1{
+.do h1 {
   font-size: 3em;
+  color: rgba(167, 75, 150, 0.788);
 }
-.do .must-do{
+.do .must-do {
   font-size: 1.6em;
 }
-.penalty .back-to-home{
+.penalty .back-to-home {
   height: 10%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
-.penalty .back-to-home button{
+.penalty .back-to-home button {
   background-color: red;
   padding: 5px 10px;
   border: none;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 80vw;
+    padding: 5px;
+  }
+  .challenge .challenge-header {
+    font-size: 2em;
+  }
+  .accept-or-decline button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    margin: 5px;
+  }
 }

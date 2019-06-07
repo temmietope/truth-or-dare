@@ -37,7 +37,7 @@ let time = 60;
       clearInterval(interval);
       showPenalty()
     }
-    timer.innerHTML = `${time} seconds`
+    timer.innerHTML = `${time} seconds  <i class="fas fa-exclamation"></i>`
     console.log(time)
   }, 1000)
 
@@ -56,7 +56,7 @@ selectDare.addEventListener("click", () => {
       clearInterval(interval)
       showPenalty()
     }
-    timer.innerHTML = `${time} seconds`
+    timer.innerHTML = `${time} seconds  <i class="fas fa-exclamation"></i>`
     console.log(time)
 
   }, 1000)
