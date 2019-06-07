@@ -46,7 +46,7 @@ section {
 .start-btn {
   padding: 10px 40px;
   font-size: 1.2em;
-  background-color: yellowgreen;
+  background-color: rgba(160, 48, 48, 0.664);
   color: white;
   border: none;
 }
