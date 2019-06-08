@@ -12,9 +12,12 @@
       integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
       crossorigin="anonymous"
     />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link
       href="https://fonts.googleapis.com/css?family=Artifika"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Berkshire Swash"
       rel="stylesheet"
     />
   </head>
@@ -28,7 +31,11 @@
           </div>
           <div class="rules">
             <h4>Rules of the game</h4>
-               If you decline the challenge, you will be penalized
+            <p>If you decline the challenge, you will be penalized.</p>
+            <p>
+              You have just 1 minute to accept/decline a challenge, else you
+              will face the penalty automatically.
+            </p>
           </div>
         </section>
 
@@ -55,22 +62,21 @@
         >
           <div class="challenge" id="challenge"></div>
           <div class="accept-or-decline">
-              <div class="accept" id="accept"><button>ACCEPT</button></div>
-              <div class="decline" id="decline"><button>DECLINE</button></div>
+            <div class="accept" id="accept"><button>ACCEPT</button></div>
+            <div class="decline" id="decline"><button>DECLINE</button></div>
           </div>
           <div class="timer" id="timer"></div>
           <div class="back" id="back2"><button>Back</button></div>
-          
         </section>
 
         <section class="penalty" id="penalty" style="display: none;">
-            <div class="do">
-                <h1>PENALTY <i class="fas fa-exclamation-triangle"></i> </h1>
-                <div class="must-do" id="must-do"></div>
-            </div>       
-            <div class="back-to-home" id="back-to-home">
-              <button>Back to Home</button>
-            </div>
+          <div class="do">
+            <h1>PENALTY <i class="fas fa-exclamation-triangle"></i></h1>
+            <div class="must-do" id="must-do"></div>
+          </div>
+          <div class="back-to-home" id="back-to-home">
+            <button>Back to Home</button>
+          </div>
         </section>
       </div>
     </div>
