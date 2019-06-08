@@ -36,6 +36,11 @@ button {
 h1 {
   font-family: "Berkshire Swash";
 }
+.royaltee {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
 .header {
   height: 65%;
   display: flex;
@@ -106,10 +111,9 @@ h1 {
   border: none;
 }
 .challenge {
-  height: 65%;
+  height: 60%;
   display: flex;
   flex-flow: column wrap;
-  justify-content: center;
   align-items: center;
 }
 .challenge .challenge-header {
@@ -117,7 +121,7 @@ h1 {
   color: rgba(167, 75, 150, 0.788);
 }
 .accept-or-decline {
-  height: 20%;
+  height: 15%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -145,6 +149,7 @@ h1 {
   margin: 10px;
   align-items: center;
 }
+
 .question-section1 .back button {
   background-color: red;
   padding: 5px 10px;
@@ -154,7 +159,7 @@ h1 {
   width: 80%;
 }
 .do {
-  height: 80%;
+  height: 70%;
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
@@ -185,14 +190,20 @@ h1 {
     width: 80vw;
     padding: 10px;
   }
+  .header {
+    height: 65%;
+  }
+  .header h1 {
+    font-size: 2em;
+  }
   .rules {
-    font-size: 0.9em;
+    font-size: 0.6em;
   }
   .challenge {
-    height: 68%;
+    height: 60%;
   }
   .accept-or-decline {
-    height: 15%;
+    height: 10%;
   }
   .timer {
     height: 10%;
