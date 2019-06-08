@@ -10,7 +10,7 @@ body {
   align-items: center;
 }
 .container {
-  border: 1px solid black;
+  border: 1px solid rgb(170, 62, 170);
   width: 50vw;
   height: 80vh;
   display: flex;
@@ -18,11 +18,7 @@ body {
   justify-content: center;
   align-items: center;
   padding: 10px;
-  background: linear-gradient(
-    to bottom left,
-    rgba(255, 255, 255, 0.623),
-    rgba(160, 48, 48, 0.664)
-  );
+  background-image: url(./images/beautiful-beautiful-flowers-bloom-354587.jpg);
 }
 a {
   color: black;
@@ -31,6 +27,15 @@ a {
 section {
   height: 100%;
 }
+.fas {
+  color: red;
+}
+button {
+  font-family: "Artifika";
+}
+h1 {
+  font-family: "Berkshire Swash";
+}
 .header {
   height: 65%;
   display: flex;
@@ -38,7 +43,7 @@ section {
   justify-content: center;
   align-items: center;
   border-bottom: 1px solid black;
-  color: rgba(167, 75, 150, 0.788);
+  color: rgba(56, 8, 47, 0.904);
 }
 .header h1 {
   font-size: 2.5em;
@@ -61,6 +66,10 @@ section {
   text-align: center;
   margin-top: 0;
   margin-bottom: 0;
+}
+.rules p {
+  padding: 0;
+  margin: 0;
 }
 .select-an-option {
   width: 80%;
@@ -97,7 +106,7 @@ section {
   border: none;
 }
 .challenge {
-  height: 50%;
+  height: 65%;
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
@@ -108,7 +117,7 @@ section {
   color: rgba(167, 75, 150, 0.788);
 }
 .accept-or-decline {
-  height: 25%;
+  height: 20%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -122,7 +131,7 @@ section {
   margin: 20px;
 }
 .timer {
-  height: 15%;
+  height: 8%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -130,9 +139,10 @@ section {
   font-size: 1.2em;
 }
 .question-section1 .back {
-  height: 10%;
+  height: 7%;
   display: flex;
   justify-content: flex-end;
+  margin: 10px;
   align-items: center;
 }
 .question-section1 .back button {
@@ -162,6 +172,7 @@ section {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  margin: 10px;
 }
 .penalty .back-to-home button {
   background-color: red;
@@ -172,7 +183,22 @@ section {
 @media screen and (max-width: 768px) {
   .container {
     width: 80vw;
-    padding: 5px;
+    padding: 10px;
+  }
+  .rules {
+    font-size: 0.9em;
+  }
+  .challenge {
+    height: 68%;
+  }
+  .accept-or-decline {
+    height: 15%;
+  }
+  .timer {
+    height: 10%;
+  }
+  .question-section1 .back {
+    height: 7%;
   }
   .challenge .challenge-header {
     font-size: 2em;
@@ -181,5 +207,8 @@ section {
     padding: 10px 20px;
     font-size: 1.2em;
     margin: 5px;
+  }
+  .penalty h1 {
+    font-size: 2em;
   }
 }
