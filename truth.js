@@ -6,7 +6,7 @@ const challenge = {
     "Have you ever practiced kissing in a mirror?",
     "Who is your favorite? Mom or Dad?",
     "If someone offered you $1 million dollars to break up with your girlfriend/boyfriend, would you do it?",
-    "If you could go back in time in erase one thing you said or did, what would it be?",
+    "If you could go back in time to erase one thing you said or did, what would it be?",
     "If you could suddenly become invisible, what would you do?",
     "Who is one person you pretend to like, but actually don’t?",
     "When was the last time you wet the bed?",
@@ -15,7 +15,6 @@ const challenge = {
     "What's the sexiest thing about a guy?",
     "If you could go out on a date with a celebrity, who would it be?",
     "Describe your dream career.",
-
     "If you could eat anything you wanted without getting fat, what would that food be?",
     "If you had to do a gameshow with someone in this room, who would you pick?",
     "Would you go a year without your phone if it meant you could marry the person of your dreams?",
@@ -51,7 +50,10 @@ const challenge = {
     "Would you ever get into a long distance relationship?",
     "If you could change one thing on your body, what would it be?",
     "If money didn’t matter, what would your dream job be?",
-    "What is the weirdest thing you have ever done in front of a mirror"
+    "What is the weirdest thing you have ever done in front of a mirror",
+    "Have you ever stolen something?",
+    "Did you let someone else take the fall for something you did?",
+    "What was your childhood nickname?"
   ],
   dares: [
     "Take an embarrassing selfie and post it as your profile picture.",
@@ -77,7 +79,17 @@ const challenge = {
     "Exchange a clothing item with the player on your right",
     "Show everything that’s in your purse",
     "Go to the next room and ask your neighbor for bananas",
-    " Lick someone’s foot 2 times."
+    " Lick someone’s foot 2 times.",
+    "Gaze into a girl’s or boy’s eyes for 30 seconds.",
+    "Slow dance to a fast song.",
+    "Hop like a kangaroo for a minute and cover the entire room.",
+    "Send a text message to your crash, telling them your feet usually smell like rotten tomatoes and ask if they would put up with that.",
+    "Tell the group in details about your first kiss.",
+    "Reveal the color of your boxers/panties.",
+    "Go back and forth under the table until it’s your turn again.",
+    "Call 5 different people and talk to them in 5 different accents.",
+    "Drink 3 big cups of water without stopping.",
+    "Tell your girlfriend/boyfriend that your friends don’t like her/him so you can’t be with her/him anymore."
   ],
   penalty: [
     "Pay fine",
