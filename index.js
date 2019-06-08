@@ -88,5 +88,3 @@ backToHome.addEventListener("click", () => {
   penalty.style.display = "none";
   selectAnOption.style.display = "block";
 });
-
-// window.history.back()
